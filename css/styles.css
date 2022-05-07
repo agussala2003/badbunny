@@ -36,7 +36,7 @@ header #navbar #navbar_container #navbarNav ul li a:hover {
 }
 .hero .hero_container .info_container h1 {
   font-size: 5em;
-  font-weight: 300;
+  font-weight: 800;
 }
 .hero .hero_container .info_container p {
   font-size: 1.3em;
@@ -67,7 +67,7 @@ header #navbar #navbar_container #navbarNav ul li a:hover {
 }
 
 /*Estilos del main de galeria*/
-.hero-gallery, .hero-concert {
+.hero-gallery {
   background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.8)), url(../img/bad-bg3.png);
   background-size: cover;
 }
@@ -107,6 +107,8 @@ header #navbar #navbar_container #navbarNav ul li a:hover {
 }
 /*Estilos del main de conciertos*/
 .hero-concert {
+  height: auto;
+  background-color: #000;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -117,11 +119,13 @@ header #navbar #navbar_container #navbarNav ul li a:hover {
   color: #fff;
   text-align: center;
   padding-top: 20px;
+  font-weight: 800;
 }
 .hero-concert .hero-container p {
   color: #fff;
   padding: 20px 20px 0px 20px;
   text-align: justify;
+  font-size: 16px;
 }
 .hero-concert .hero-container img {
   width: 300px;
@@ -174,7 +178,7 @@ footer .footer_container {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  height: 11vh;
   background-color: #4d4d4d;
 }
 footer .footer_container .logo_container img {
